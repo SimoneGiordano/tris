@@ -1,28 +1,40 @@
-<!DOCTYPE html>
-<html lang="en">
+<!Doctype html>
+<html lang="it">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TRIS</title>
-    <link rel="stylesheet" href="style.css">
+<meta charset="utf-8">
+<title>TRIS</title>
+<style>
+tr{height:30px;}
+td{width:30px;}
+</style>
+
+
 </head>
+
 <body>
-    <div>
-        <table cellpadding="0" cellspacing="0" border="5" bordercolor="black" bordercolorlight="gray" bgcolor="white" align="center">
-            <tr>
-            <td width="55"><img src="nothing.gif" border="0" name="rc11"></a></td>
-            <td width="55"><img src="nothing.gif" border="0" name="rc12"></a></td>
-            <td width="55"><img src="nothing.gif" border="0" name="rc13"></a></td>
-            </tr><tr>
-            <td width="55"><img src="nothing.gif" border="0" name="rc21"></a></td>
-            <td width="55"><img src="nothing.gif" border="0" name="rc22"></a></td>
-            <td width="55"><img src="nothing.gif" border="0" name="rc23"></a></td>
-            </tr><tr>
-            <td width="55"><img src="nothing.gif" border="0" name="rc31"></a></td>
-            <td width="55"><img src="nothing.gif" border="0" name="rc32"></a></td>
-            <td width="55"><img src="nothing.gif" border="0" name="rc33"></a></td>
-            </tr></table><br>
-    </div>
+
+<table BORDER=2>
+<tbody>
+     <tr>
+     <td><img src="nothing.gif" onclick="cliccato(0)"></td>
+     <td><img src="nothing.gif" onclick="cliccato(1)"></td>
+     <td><img src="nothing.gif" onclick="cliccato(2)"></td>
+     </tr>
+<tr>
+     <td><img src="nothing.gif" onclick="cliccato(3)"></td>
+     <td><img src="nothing.gif" onclick="cliccato(4)"></td>
+     <td><img src="nothing.gif" onclick="cliccato(5)"></td>
+     </tr>
+     <tr>
+     <td><img src="nothing.gif" onclick="cliccato(6)"></td>
+     <td><img src="nothing.gif" onclick="cliccato(7)"></td>
+     <td><img src="nothing.gif" onclick="cliccato(8)"></td>
+     </tr>
+</tbody>
+</table>
+  <input type="button" value="GIOCA" onclick="gioca()">
+
+
 </body>
+<script src="script.js"></script>
 </html>
